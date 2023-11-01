@@ -1,5 +1,5 @@
 {
-    "name": "doppiogancio/guzzle-bundle-base-path-plugin",
+    "name": "doppiogancio/GuzzleBundleBasePathPlugin",
     "description": "A Plugin for Guzzle Bundle, that will help you setting a base path to each request of your client.",
     "type": "library",
     "license": "MIT",
