@@ -3,7 +3,6 @@
     "description": "A Plugin for Guzzle Bundle, that will help you setting a base path to each request of your client.",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Doppiogancio\\Bundle\\GuzzleBundleBasePathPlugin\\": "src/"
