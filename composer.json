@@ -1,0 +1,45 @@
+{
+    "name": "doppiogancio/guzzle-bundle-base-path-plugin",
+    "description": "A Plugin for Guzzle Bundle, that will help you setting a base path to each request of your client.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Doppiogancio\\Bundle\\GuzzleBundleBasePathPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Doppiogancio\\Bundle\\GuzzleBundleBasePathPlugin\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabrizio Gargiulo",
+            "email": "fabrizio.gargiulo@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                              "^7.1|^8.0",
+        "guzzlehttp/guzzle":                "^6.0|^7.0",
+        "eightpoints/guzzle-bundle":        "^8.0",
+        "symfony/http-kernel":              "^4.0|^5.0|^6.0",
+        "symfony/config":                   "^4.0|^5.0|^6.0",
+        "symfony/dependency-injection":     "^4.0|^5.0|^6.0",
+        "symfony/expression-language":      "^4.0|^5.0|^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":              "^9.5",
+        "php-coveralls/php-coveralls":  "^2.2",
+        "doppiogancio/mocked-client": "^3.1.11",
+        "php-http/discovery": "^1.19",
+        "psr/http-factory-implementation": "*",
+        "ext-json": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
